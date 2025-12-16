@@ -140,7 +140,7 @@ def load_yolo_model(model_name: str = None, confidence: float = None) -> YOLOPer
     load_dotenv()
     
     if model_name is None:
-        model_name = os.getenv("YOLO_MODEL", "yolov8n.pt")
+        model_name = os.getenv("YOLO_MODEL", "yolov8s.pt")
     
     if confidence is None:
         confidence = float(os.getenv("CONFIDENCE_THRESHOLD", 0.5))
