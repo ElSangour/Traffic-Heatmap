@@ -214,3 +214,5 @@ models/weights/*.h5
 *.pt
 *.onnx
 *.h5
+#data
+calibration_data/*
