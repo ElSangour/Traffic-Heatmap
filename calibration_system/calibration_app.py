@@ -73,7 +73,7 @@ class SetupDialog(QDialog):
         
         self.url_template_edit = QLineEdit()
         self.url_template_edit.setPlaceholderText("rtsp://user:pass@ip:port/cam/realmonitor?channel={camera_id}&subtype=1")
-        self.url_template_edit.setText("rtsp://SMG055:SMG055%402025SMG055@192.168.55.12/cam/realmonitor?channel={camera_id}&subtype=1")
+        self.url_template_edit.setText("rtsp://user:pass@ip:port/cam/realmonitor?channel={camera_id}&subtype=1")
         camera_layout.addWidget(self.url_template_edit)
         
         camera_layout.addSpacing(10)
